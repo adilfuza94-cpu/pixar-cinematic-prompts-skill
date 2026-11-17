@@ -1,0 +1,20 @@
+{
+  "skill": "pixar-cinematic-prompts",
+  "test_cases": [
+    {
+      "name": "family_hug_scene",
+      "input": "Make a silent Pixar-style vertical video of an Uzbek mother hugging her toddler at golden hour on a balcony",
+      "assertions": ["includes 9:16", "mentions silent/no talk", "locks character consistency", "golden hour lighting", "slow camera"]
+    },
+    {
+      "name": "medical_choking_safety",
+      "input": "Educational split-screen on infant choking safety, gentle and clear, no distress",
+      "assertions": ["non-distressing", "educational clarity", "character consistency if people shown", "vertical format"]
+    },
+    {
+      "name": "hero_product_reveal",
+      "input": "3-shot hero product video for a beauty item with magical transformation, photo-fidelity",
+      "assertions": ["3-shot structure or notes", "photo-fidelity", "vertical 9:16", "consistency"]
+    }
+  ]
+}

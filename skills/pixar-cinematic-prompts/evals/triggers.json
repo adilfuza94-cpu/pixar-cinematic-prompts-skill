@@ -1,0 +1,10 @@
+{
+  "skill": "pixar-cinematic-prompts",
+  "test_cases": [
+    {"input": "Generate a Pixar-style silent family scene prompt for image-to-video", "should_trigger": true},
+    {"input": "Refine this prompt for better character consistency across shots", "should_trigger": true},
+    {"input": "Write a Python script to resize images", "should_trigger": false},
+    {"input": "Explain quantum computing", "should_trigger": false},
+    {"input": "Create a vertical 9:16 cinematic prompt with golden hour and no talk", "should_trigger": true}
+  ]
+}
